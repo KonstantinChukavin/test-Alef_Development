@@ -1,0 +1,40 @@
+.header__burger {
+    margin: 0;
+    margin-left: 35px;
+    display: block;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    z-index: 3;
+}
+
+.header__burger:hover {
+    cursor: pointer;
+}
+
+.header__burger:before,
+.header__burger:after {
+    content: '';
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0;
+}
+
+.header__burger:before {
+    top: 4;
+}
+
+.header__burger:after {
+    bottom: 0;
+}
+
+.header__burger span {
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    top: 11px;
+}

@@ -1,0 +1,8 @@
+.header__link {
+    color: rgba(51, 51, 51, 1);
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 16px;
+    text-decoration: none;
+    margin: 0 0 0 35px;
+}

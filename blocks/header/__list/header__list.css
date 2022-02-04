@@ -1,0 +1,7 @@
+.header__list {
+    display: flex;
+}
+
+.header__list li {
+list-style: none;
+}
